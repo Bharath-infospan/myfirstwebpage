@@ -1,0 +1,162 @@
+<html>
+<head>
+<link rel="stylesheet" href="index.css" type="text/css">
+<link rel="stylesheet" href="pseudo.css" type="text/css">
+<link rel="stylesheet" href="jobs.css" type="text/css">
+<script type="text/javascript" src="jquery-1.9.1.js">
+</script>
+<script>
+$(document).ready(function(){
+$("#second").click(function(){
+$("#first").css("visibility", "hidden");
+$("#fourth").css("visibility", "visible");
+});
+});
+</script>
+<script>
+$(document).ready(function(){
+$("#third").click(function(){
+$("#first").css("visibility", "hidden");
+//$("#btnsample").fadeOut(fast);
+$("#pass").css("visibility","visible");
+$("#first").fadeOut("fast");
+});
+});
+</script>
+<script type="text/javascript" src="jquery-1.9.1.js">
+</script>
+<script>
+$(function(){
+	setInterval("slideshow1()",2000);
+});
+function slideshow1(){
+var curPic=$("#imageSlider1 div.current");
+var nxtPic=curPic.next();
+if(nxtPic.length==0)
+{
+nxtPic=$("#imageSlider1 div:first");
+}
+curPic.removeClass("current").addClass("prev");
+nxtPic.css({opacity:0.0}).addClass("current").
+animate({opacity:1.0},2000,function(){curPic.removeClass("prev");
+});
+}
+</script>
+</head>
+<body>
+<header>
+<div id="main">
+<div id="head1">
+<div id="img">
+<img src="GKS.png"></div>
+<div id="head">
+<p><i>Global Keen Solutions</i></p>
+</div>
+<div id="icons">
+<a href=https://facebook.com/GlobalkeenSolutions><img src=fb.png></img></a>
+<a href=https://linkedin.com/Company/globalkeen-solutions><img src=linkedin.png></img></a>
+<a href=https://twiter.com/GlobalkeenSolutions><img src=tw.png></img></a>
+</div>
+<div id="num">
+<p>PH:040-65604444</p>
+</div>
+</div>
+<div id="menu">
+<nav id="navspace">
+<ul>
+
+<li><a href="index.html">Home</a></li>
+<li><a href="#">About</a>
+<ul>
+<li><a href="Corporate.html">Corporate</a></li>
+<li><a href="Mission&Vision.html"> Mission&Vision</a></li>
+<li><a href="Policies&ethics.html">Policies &Ethics</a></li>
+<li><a href="WhyGKS.html">Why GKS?</a></li>
+</ul>
+</li>
+
+
+<li><a href="#">Services</a>
+<ul>
+<li><a href="ITStaffing.html">IT Staffing</a></li>
+<li><a href="OutSourcing.html">Out Sourcing</a></li>
+<li><a href="Payrolls.html">Payrolls</a></li>
+<li><a href="ManPower.html">Man Power</a></li>
+<li><a href="Backgroundverification.html">Background Verification</a></li>
+<li><a href="Recruiting.html">Recruiting</a></li>
+<li><a href="CampusPlacements.html">Campus Placements</a></li>
+</ul>
+</li>
+
+<li><a href="#">Login</a>
+<ul>
+<li><a href="Admin.html">Admin</a></li>
+<li><a href="Employee.html">Employee</a></li>
+<li><a href="Client.html">Client</a></li>
+<li><a href="JobSeeker.html">Job Seeker</a></li>
+</ul>
+</li>
+
+<li><a href="contact.html">Contact Us</a></li>
+</ul>
+</nav>
+</div>
+<div id="data">
+<div id="imageSlider1">
+<div><img class="slideimg" src="banner5.gif"/></div>
+<div><img class="slideimg" src="banner1.gif"/></div>
+<div><img class="slideimg" src="banner2.gif"/></div>
+<div><img class="slideimg" src="banner3.gif"/></div>
+<div><img class="slideimg" src="4.jpg"/></div>
+</div>
+<div id="marque">
+<center>
+<marquee direction="up" behaviour="scroll" scrollamount=3 delay=1 onMouseOver="this.stop()" onMouseOut="this.start()">
+<a href="latest.html">Job Openings</a><br><br><br><a href="projects.html">Live Projects</a>
+<br><br><p><a href="traning.html">Training</a></p><br><p><a href="placement.html">Placement Drive</a>
+</center>
+</marquee>
+</div>
+<div id="info" font-family:arial>
+<p>Global Kleen Solutions Promoted and managed by Professionals,Consultancy,IT Staffing,Out Sourcing and many domains.we also
+render our services in respect of head hunting and manpower planning and help you get the right candiatefor your enterprise.</p>
+<p>&nbsp&nbsp&nbspOur mission is to provide quality Consultancy and Development services with reliability and Timeliness.we 
+always strive to achieve and live up to our promises</p> 
+</div>
+
+<div id="footer">
+<div id="f1" font-family:arial>
+<p>Services</p>
+</div>
+
+<div id="f2" font-family:arial>
+<p>Training</p>
+</div>
+
+<div id="f3" font-family:arial>
+<p>Quick Links</p>
+</div>
+<div id=f11>
+<ul>
+<li><p><a href=ITStaffing.html>IT Staffing</a></p></li>
+<li><p><a href=Payrolls.html>Payrolls</a></p></li>
+<li><p><a href=Manpower.html>ManPower</a></p></li>
+</div>
+<div id=f12>
+<ul>
+<li><p><a href=#>Hadoop</a></p></li>
+<li><p><a href=#>Java</a></p></li>
+<li><p><a href=#>.NEt</a></p></li>
+</div>
+<div id=f13>
+<ul>
+<li><p><a href=#>Mission&Vision</a></p></li>
+<li><p><a href=#>Policies&Ethics</a></p></li>
+<li><p><a href=#>Why GKS?</a></p></li>
+</div>
+<div id="copy">
+<p>@GlobalKeenSolutions</p>
+</div>
+</div>
+</body>
+</html>

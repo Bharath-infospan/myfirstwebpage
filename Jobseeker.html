@@ -1,0 +1,169 @@
+<html>
+<head>
+<link rel="stylesheet" href="index.css" type="text/css">
+<link rel="stylesheet" href="pseudo.css" type="text/css">
+<script type="text/javascript" src="jquery-1.9.1.js">
+</script>
+<script>
+$(document).ready(function(){
+$("#second").click(function(){
+$("#first").css("visibility", "hidden");
+$("#fourth").css("visibility", "visible");
+})
+})
+</script>
+<script>
+$(document).ready(function(){
+$("#third").click(function(){
+$("#first").css("visibility", "hidden");
+//$("#btnsample").fadeOut(fast);
+$("#pass").css("visibility","visible");
+})
+})
+</script>
+
+<script type="text/javascript" src="jquery-1.9.1.js">
+</script>
+<script>
+$(function(){
+	setInterval("slideshow1()",2000);
+});
+function slideshow1(){
+var curPic=$("#imageSlider1 div.current");
+var nxtPic=curPic.next();
+if(nxtPic.length==0)
+{
+nxtPic=$("#imageSlider1 div:first");
+}
+curPic.removeClass("current").addClass("prev");
+nxtPic.css({opacity:0.0}).addClass("current").
+animate({opacity:1.0},2000,function(){curPic.removeClass("prev");
+});
+}
+</script>
+<script type="text/javascript" src="jquery-1.9.1.js">
+</script>
+<script>
+$(document).ready(function(){
+$("#second").click(function(){
+$("#first").css("visibility", "hidden");
+$("#fourth").css("visibility", "visible");
+})
+})
+</script>
+<script>
+$(document).ready(function(){
+$("#third").click(function(){
+$("#first").css("visibility", "hidden");
+//$("#btnsample").fadeOut(fast);
+$("#pass").css("visibility","visible");
+})
+})
+</script>
+</head>
+<body>
+<body>
+<header>
+<div id="main">
+<div id="head1">
+<div id="img">
+<img src="GKS.png"></div>
+<div id="head">
+<p><i>Global Keen Solutions</i></p>
+</div>
+<div id="icons">
+<a href=https://facebook.com/GlobalkeenSolutions><img src=fb.png></img></a>
+<a href=https://linkedin.com/Company/globalkeen-solutions><img src=linkedin.png></img></a>
+<a href=https://twiter.com/GlobalkeenSolutions><img src=tw.png></img></a>
+</div>
+<div id="num">
+<p>PH:040-65604444</p>
+</div>
+</div>
+<div id="menu">
+<nav id="navspace">
+<ul>
+
+<li><a href="index.html">Home</a></li>
+<li><a href="#">About</a>
+<ul>
+<li><a href="Corporate.html">Corporate</a></li>
+<li><a href="Mission&Vision.html"> Mission&Vision</a></li>
+<li><a href="Policies&ethics.html">Policies &Ethics</a></li>
+<li><a href="WhyGKS.html">Why GKS?</a></li>
+</ul>
+</li>
+
+
+<li><a href="#">Services</a>
+<ul>
+<li><a href="ITStaffing.html">IT Staffing</a></li>
+<li><a href="OutSourcing.html">Out Sourcing</a></li>
+<li><a href="Payrolls.html">Payrolls</a></li>
+<li><a href="ManPower.html">Man Power</a></li>
+<li><a href="Backgroundverification.html">Background Verification</a></li>
+<li><a href="Recruiting.html">Recruiting</a></li>
+<li><a href="CampusPlacements.html">Campus Placements</a></li>
+</ul>
+</li>
+
+<li><a href="#">Login</a>
+<ul>
+<li><a href="Admin.html">Admin</a></li>
+<li><a href="Employee.html">Employee</a></li>
+<li><a href="Client.html">Client</a></li>
+<li><a href="JobSeeker.html">Job Seeker</a></li>
+</ul>
+</li>
+
+<li><a href="contact.html">Contact Us</a></li>
+</ul>
+</nav>
+</div>
+
+
+<div id="first">
+
+<div id="second">
+<input type="radio" value="new" name="r1">Create a new account<br>
+</div>
+<div id="third">
+<input type="radio" value="old" name="r1">Existing one<br>
+</div>
+<form action="abcd.jsp">
+<div id="pass">
+Email-Id:<input type="email" placeholder="user@gmail.com"><br>
+password:<input type="password" name="pwd"><br>
+<input type=submit onClick="abdc.jsp">
+</div>
+</form>
+<div id="fourth">
+<form>
+<h2 center>Registration</h2>
+Id:<input type=text value="0001"  readonly><br>
+Name:<br>
+<input type="text" placeholder="first"><br>
+Designation:<select name="id">
+<option>---select---</option>
+<option>B-Tech</option>
+<option>Degree</option>
+<option>PG</option>
+</select><br>
+Department:<select name="id1">
+<option>---select---</option>
+<option>Cse</option>
+<option>Ec</option>
+<option>IT</option>
+</select><br>
+Mobile-Phone:<input type=text value=+91><br>
+Email-Id:<input type="email" placeholder="user@gmail.com"><br>
+     Password<input type="password" placeholder="password"><br>
+<input type=submit value=submit>
+
+</form>
+</div>
+</div>
+
+
+</body>
+</html>

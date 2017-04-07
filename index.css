@@ -1,0 +1,257 @@
+#main{
+position:absolute;
+margin-top:0px;
+height:950px;
+width:800px;
+margin-left:100px;
+background:white;
+
+}
+a{
+	font-size:16px;
+	color:red;
+transition: all 0.3s ease-in;
+      text-decoration:none;
+}
+a:hover{
+	-webkit-stroke-width: 5.3px;
+      -webkit-stroke-color: #FFFFFF;
+      -webkit-fill-color: #FFFFFF;
+      text-shadow: 1px 0px 20px yellow;
+font-size:20px;
+}
+#head1
+{
+position:absolute;
+margin-top:0px;
+width:800px;
+height:125px;
+background:white;
+}
+#img
+{
+position:absolute;
+float:left;
+margin-left:15px;
+margin-top:8px;
+}
+#head
+{
+position:absolute;
+margin-left:150px;
+margin-top:-25px;
+color:red;
+font-size:54px;
+}
+#icons
+{
+position:absolute;
+margin-left:700px;
+margin-top:55px;
+}
+#num
+{
+margin-left:670px;
+margin-top:85px;
+}
+#menu
+{
+position:absolute;
+margin-top:127px;
+width:800px;
+height:45px;
+background:#6666ff;
+}
+#data
+{
+position:absolute;
+width:800px;
+margin-top:175px;
+height:500px;
+background:white;
+}
+#contact
+{
+position:absolute;
+top:60px;
+left:80px;
+}
+#ad
+{
+position:absolute;
+left:10px;
+}
+#addr
+{
+position:absolute;
+top:20px;
+left:400px;
+width:250px;
+}
+#marque{
+postion:absolute;
+margin-left:550px;
+margin-top:35px;
+width:230px;
+height:295px;
+background:white;
+font-family:arial;
+}
+#info
+{
+position:absolute;
+margin-top:35px;
+margin-left:40px;
+font-family:arial;
+}
+#mainj
+{
+	
+	
+	top:200px;
+	left:80px;
+	position:absolute;
+}
+#layer1
+{
+position:absolute;
+width:500px;
+height:100px;
+top:280px;
+left:120px;
+visibility:hidden;
+}
+#layer2
+{
+width:500px;
+height:500px;
+left:120px;
+top:280px;
+visibility:hidden;
+position:absolute;
+}		
+
+
+#imageSlider1
+{
+	position:absolute;
+	width:auto;
+	height:auto;
+	border:hidden;
+	margin-left:30px;
+	margin-top:35px;
+}
+
+#imageSlider1 div.current{z-index:2;}
+#imageSlider1 div
+{
+	position:absolute;
+	z-index:0;
+	top:-2px;
+	left:-1px;
+}
+
+#imageSlider1 div.prev{z-index:1;}
+.slideimg{
+	width:500px;
+	height:300px;
+	
+}
+#footer
+{
+margin-top:180px;
+margin-left:0px;
+width:800px;
+height:180px;
+background:#6666ff;
+
+}
+#f1
+{
+margin-top:10px;
+margin-left:50px;
+font-size:25px;
+}
+#f2
+{
+margin-top:-50px;
+margin-left:310px;
+
+font-size:25px;
+}
+#f3
+{
+
+font-size:25px;
+margin-top:-50px;
+margin-left:575px;
+}
+#f11{
+margin-left:35px;
+margin-top:-20px;
+
+
+}
+#f12{
+margin-left:300px;
+margin-top:-105px;
+}
+#f13{
+margin-left:550px;
+margin-top:-105px;
+text-decoration:inherit;}
+#copy{
+margin-top:40px;
+width:800px;
+height:20px;
+margin-left:0px;
+background:#000000;
+font:Arial;
+color:#FFFFFF;
+text-align:center;
+}
+#first
+{
+position:absolute;
+width:500px;
+height:500px;
+top:100px;
+left:200px;
+}
+#second
+{
+position:absolute;
+width:500px;
+height:500px;
+top:150px;
+left:200px;
+}
+#third
+{
+position:absolute;
+width:500px;
+height:500px;
+top:200px;
+left:200px;
+}
+#pass
+{
+position:absolute;
+width:500px;
+height:500px;
+top:200px;
+left:200px;
+visibility:hidden;
+}
+#fourth
+{
+position:absolute;
+width:700px;
+height:600px;
+top:180px;
+left:120px;
+visibility:hidden;
+}
+
+
+
